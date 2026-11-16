@@ -1,0 +1,139 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url("../img/imagenaqui.png");
+    background-size: cover;
+    background-position: center;
+    color: rgb(94, 255, 0);
+}
+
+li {
+    color: rgb(94, 255, 0);
+}
+
+h1 {
+    color: #46b370;
+    margin: 20px;
+}
+
+h2 {
+    color: #16c559;
+    margin: 20px;
+}
+
+h3 {
+    color: #39852f;
+    margin: 20px;
+}
+
+.card-title {
+    color: #ffffff;
+}
+
+.card-text {
+    color: #ffffff;
+}
+
+
+p {
+    margin: 10px;
+}
+
+.card {
+    width: 100%;
+    box-shadow: 0 16px 16px 0 rgba(255, 0, 0, 0.2);
+    transition: 0.3s;
+    border-radius: 10px;
+    height: auto;
+    background-color: rgb(17, 17, 17);
+}
+
+caption {
+    color: rgb(216, 216, 216);
+}
+
+.accordion-body {
+    background-color: #1f1f1f;
+}
+
+.accordion-item {
+    background-color: #0c0c0c;
+}
+
+.accordion-button {
+    background-color: #0c0c0c;
+}
+
+.card-header {
+    color: #ffffff;
+}
+
+.conclusion {
+    height: auto;
+    width: 100%;
+    background-color: rgb(17, 17, 17);
+}
+
+.conclusion .card-header {
+    background-color: #0c0c0c;
+    color: rgb(94, 255, 0);
+    border-bottom: 1px solid #16c559;
+}
+
+.conclusion .card-title {
+    color: #16c559;
+}
+
+.conclusion .card-text {
+    color: #ffffff;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 280px;
+    object-fit: cover;
+}
+
+a:focus-visible,
+button:focus-visible {
+    outline: 3px solid #ffda6a;
+    outline-offset: 3px;
+}
+
+@media (max-width: 576px) {
+    h1 {
+        font-size: 1.8rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    .card-img-top {
+        height: 200px;
+    }
+}
+
+.accordion-title {
+    display: block;
+    color: #16c559;
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 1.2;
+    margin: 20px;
+}
+
+@media (max-width: 576px) {
+    .accordion-title {
+        font-size: 1.5rem;
+    }
+}
+
+.seccion-inicio {
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 25px;
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    margin-bottom: 25px;
+}
+
