@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-image: url("../img/imagenaqui.png");
+    background-image: url("../img/fondooscuro.gif");
     background-size: cover;
     background-position: center;
     color: rgb(94, 255, 0);
@@ -31,11 +31,6 @@ h3 {
 
 .card-text {
     color: #ffffff;
-}
-
-
-p {
-    margin: 10px;
 }
 
 .card {
@@ -128,7 +123,7 @@ button:focus-visible {
     }
 }
 
-.seccion-inicio {
+.card .mb-3 {
     background-color: rgba(0, 0, 0, 0.7);
     color: white;
     padding: 25px;
@@ -137,3 +132,6 @@ button:focus-visible {
     margin-bottom: 25px;
 }
 
+.text-body-secondary {
+    color: rgb(255 255 255)!important;
+}
