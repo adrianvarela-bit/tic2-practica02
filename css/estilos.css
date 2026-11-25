@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-image: url("../img/fondooscuro.gif");
+    background-image: url("../img/fondooscuro.mp4");
     background-size: cover;
     background-position: center;
     color: rgb(94, 255, 0);
@@ -134,4 +134,21 @@ button:focus-visible {
 
 .text-body-secondary {
     color: rgb(255 255 255)!important;
+}
+
+#video-fondo {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.contenido {
+    position: relative;
+    color: white;
+    text-align: center;
+    padding-top: 20%;
 }
