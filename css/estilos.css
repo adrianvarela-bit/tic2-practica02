@@ -1,12 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-image: url("../img/fondooscuro.mp4");
-    background-size: cover;
-    background-position: center;
-    color: rgb(94, 255, 0);
-}
-
-li {
+    background-color: #000000;
     color: rgb(94, 255, 0);
 }
 
@@ -20,13 +14,9 @@ h2 {
     margin: 20px;
 }
 
-h3 {
-    color: #39852f;
-    margin: 20px;
-}
-
 .card-title {
     color: #ffffff;
+    margin: 0 0 0.5rem 0;
 }
 
 .card-text {
@@ -42,98 +32,18 @@ h3 {
     background-color: rgb(17, 17, 17);
 }
 
-caption {
-    color: rgb(216, 216, 216);
+.text-body-secondary {
+    color: rgb(255 255 255) !important;
 }
 
-.accordion-body {
-    background-color: #1f1f1f;
-}
-
-.accordion-item {
-    background-color: #0c0c0c;
-}
-
-.accordion-button {
-    background-color: #0c0c0c;
-}
-
-.card-header {
-    color: #ffffff;
-}
-
-.conclusion {
-    height: auto;
-    width: 100%;
-    background-color: rgb(17, 17, 17);
-}
-
-.conclusion .card-header {
-    background-color: #0c0c0c;
-    color: rgb(94, 255, 0);
-    border-bottom: 1px solid #16c559;
-}
-
-.conclusion .card-title {
+footer a {
     color: #16c559;
-}
-
-.conclusion .card-text {
-    color: #ffffff;
-}
-
-.card-img-top {
-    width: 100%;
-    height: 280px;
-    object-fit: cover;
 }
 
 a:focus-visible,
 button:focus-visible {
     outline: 3px solid #ffda6a;
     outline-offset: 3px;
-}
-
-@media (max-width: 576px) {
-    h1 {
-        font-size: 1.8rem;
-    }
-
-    h2 {
-        font-size: 1.5rem;
-    }
-
-    .card-img-top {
-        height: 200px;
-    }
-}
-
-.accordion-title {
-    display: block;
-    color: #16c559;
-    font-size: 2rem;
-    font-weight: 500;
-    line-height: 1.2;
-    margin: 20px;
-}
-
-@media (max-width: 576px) {
-    .accordion-title {
-        font-size: 1.5rem;
-    }
-}
-
-.card .mb-3 {
-    background-color: rgba(0, 0, 0, 0.7);
-    color: white;
-    padding: 25px;
-    border-radius: 12px;
-    border: 1px solid rgba(255, 255, 255, 0.15);
-    margin-bottom: 25px;
-}
-
-.text-body-secondary {
-    color: rgb(255 255 255)!important;
 }
 
 #video-fondo {
@@ -146,9 +56,12 @@ button:focus-visible {
     z-index: -1;
 }
 
-.contenido {
-    position: relative;
-    color: white;
-    text-align: center;
-    padding-top: 20%;
+@media (max-width: 576px) {
+    h1 {
+        font-size: 1.8rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
 }
